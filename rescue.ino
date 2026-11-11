@@ -198,7 +198,7 @@
     delayMicroseconds(10); 
     digitalWrite(trigPin, LOW);
     
-    duration = pulseIn(echoPin, HIGH, 25000);
+    duration = pulseIn(echoPin, HIGH);
 
     cm = microsecondsToCentimeters(duration);
     
